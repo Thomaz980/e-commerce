@@ -12,7 +12,7 @@ builder.Services.AddStackExchangeRedisCache(options =>
 
 var app = builder.Build();
 
-app.MapGet("/produto/{id}", async (string id, IDistributedCache cache) =>
+app.MapGet("/cache/produto/{id}", async (string id, IDistributedCache cache) =>
 {
     var cachedData = await cache.GetStringAsync(id);
     if (cachedData is null)
@@ -33,7 +33,7 @@ app.MapPost("/produto", async (Produto produto, IDistributedCache cache) =>
     return Results.Ok(produto);
 });
 
-app.MapDelete("/produto/{id}", async (string id, IDistributedCache cache) =>
+app.MapDelete("/cache/produto/{id}", async (string id, IDistributedCache cache) =>
 {
     await cache.RemoveAsync(id);
     return Results.NoContent();
