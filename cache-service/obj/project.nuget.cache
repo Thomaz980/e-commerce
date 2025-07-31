@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "39tOWRllnHU=",
+  "dgSpecHash": "1YSnALAjjCk=",
   "success": true,
-  "projectFilePath": "D:\\Sistemas Distribuidos\\e-commerce\\product-service\\product-service.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Sistemas Distribuidos\\e-commerce\\cache-service\\product-service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thoma\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.7\\microsoft.extensions.caching.abstractions.9.0.7.nupkg.sha512",
+    "C:\\Users\\thoma\\.nuget\\packages\\microsoft.extensions.caching.stackexchangeredis\\9.0.7\\microsoft.extensions.caching.stackexchangeredis.9.0.7.nupkg.sha512",
+    "C:\\Users\\thoma\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.7\\microsoft.extensions.dependencyinjection.abstractions.9.0.7.nupkg.sha512",
+    "C:\\Users\\thoma\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.7\\microsoft.extensions.logging.abstractions.9.0.7.nupkg.sha512",
+    "C:\\Users\\thoma\\.nuget\\packages\\microsoft.extensions.options\\9.0.7\\microsoft.extensions.options.9.0.7.nupkg.sha512",
+    "C:\\Users\\thoma\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.7\\microsoft.extensions.primitives.9.0.7.nupkg.sha512",
+    "C:\\Users\\thoma\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "C:\\Users\\thoma\\.nuget\\packages\\stackexchange.redis\\2.7.27\\stackexchange.redis.2.7.27.nupkg.sha512",
+    "C:\\Users\\thoma\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
